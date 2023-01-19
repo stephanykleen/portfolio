@@ -10,11 +10,33 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  
-  
+  height: 80%;
+}
+.header{
+  height:10%;
+  width: 100%;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: white;
   
 }
+.header-tabs{
+  padding: 10px;
+  margin-top: 10px;
+  list-style: none;
+  display: inline-flex;
+  
+}
+.link{
+  text-decoration: none;
+  color: inherit; 
+}
+.singular-header-tab{
+  padding:0 20px; 
+  font-family: 'Raleway', sans-serif;
+  
+}
+
 .profile{
   background-color: #E9D5A1;
   display: flex;
@@ -72,7 +94,7 @@ body{
   display: inline-flex;
 }
 .image{
-  width:100px;
+  width: 100px;
   padding: 0 20px;
 }
 .footer{
