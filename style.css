@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Condensed&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
 html{
   
   width: 100%;
@@ -63,8 +63,23 @@ body{
   color: #353239;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: Fira Mono;
+  width: 23ch;
+  animation: type 5s steps(23),
+  blink 0.5s step-end infinite alternate;
+  border-right: 3px solid;
 }
-
+@keyframes type {
+  0% {width: 0;}
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 
 .skills{
   height: 400px;
