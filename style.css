@@ -93,26 +93,26 @@ body{
   padding: 1% 0;
 }
 .about{
-  padding: 1%;
+  padding: 5%;
   
 }
 .row{
   padding: 20px;
-  margin:20px;
+  margin: 20px;
 }
 
 .profile-image{
-  width: 40%;
   display: block;
-margin-left: 300px;
-border-radius: 20px;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 10px;
 }
 .about-text{
-  text-align: center;
-  margin-top: 50px;
-  margin-left: -40px;
-  padding:20px;
+  padding: 30px;
   
+  text-align: center;
+  font-size: 1.3rem;
+  width: 75%
 }
 
 .skills-section-title{
