@@ -148,6 +148,12 @@ body{
   font-size: 3rem;
 }
 
+.mini-image{
+  width: 40px;
+  padding: 0 10px;
+
+}
+
 .footer{
   padding-top: 10px;
   height: 20%;
@@ -155,6 +161,7 @@ body{
   background-color: #E9D5A1;
 }
 .footer-text{
+  
   font-size: 0.7rem;
   margin-bottom: 2px;
 }
