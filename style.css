@@ -39,7 +39,6 @@ body{
 
 .profile{
   background: #fdc57b; 
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +82,7 @@ body{
 }
 
 .skills{
-  height: 400px;
+  height: 50%;
   text-align: center;
   background: #394a51; 
 }
@@ -118,8 +117,8 @@ body{
 }
 
 .skills-section-title{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 1%;
   font: 18px/24px "opensans-bold",sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -132,43 +131,96 @@ body{
   list-style: none;
   display: inline-flex;
 }
+
+.card-img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.projects{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #fdc57b;
+}
+.projects-title{
+  padding-bottom: 2%;
+  font: 18px/24px "opensans-bold",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color:#394a51;
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item{
+width: 20%;
+padding: 5px 5px;
+}
+.card-inner{
+  background-color:white;
+border-radius: 4px;
+height: 100%;
+}
+.card-top{
+  min-height: 225px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+.card-bottom{
+  padding: 15px;
+}
+.card-category{
+  text-transform: uppercase;
+  text-align: center;
+}
+.card-info{
+  max-width: 250px;
+  min-height: 110px;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px dashed black;
+  
+}
+.card-title{
+  margin-bottom: 5px;
+}
 .image{
   width: 100px;
   padding: 0 20px;
 }
 
-.projects{
-  width: 100%;
-  height: 50%;
-  text-align: center;
-  background: #fbf2d5; 
-  font-family: 'Raleway', sans-serif;
-  
-}
-.project{
-  padding: 2%;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
 .mini-image{
-  width: 50px;
-  padding: 0 10px;
+  width: 100%;
 }
 
 .footer{
   margin: 0 auto;
   align-items: center;
   padding-top: 30px;
-  height: 20%;
+  padding-bottom: 30px;
   text-align: center;
-  background: #fbf2d5;
+  background: #394a51;
 }
 .footer-text{
-  
-  font-size: 0.7rem;
-  margin-bottom: 2px;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
-.github-icon, .linkedin-icon, .email-icon {
-  width: 30px;
+.footer-link{
+  text-decoration: none;
+  color: #7fa99b;
+}
+.github-icon, .linkedin-icon {
+  width: 40px;
+}
+
+@media (max-width: 1024px){
+  .card-item{
+    width: 33.3%;
+    }
 }
